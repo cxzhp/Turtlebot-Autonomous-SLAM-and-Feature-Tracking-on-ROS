@@ -27,7 +27,7 @@
 
     </node>
 
-    <include file="$(find turtlebot_navigation)/launch/includes/gmapping.launch.xml"/>
+    <include file="$(find turtlebot_navigation)/launch/includes/gmapping/gmapping.launch.xml"/>
 
     <node name="RVIZ" pkg="rviz" type="rviz" args=" -d $(find turtlebot_project)/param/AutoMap.rviz" />
 

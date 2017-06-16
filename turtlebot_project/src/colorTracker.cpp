@@ -1,6 +1,6 @@
 #include <ros/ros.h>
 #include <geometry_msgs/Twist.h>
-#include <cmvision_3d/Blobs3d.h>
+#include "/home/slam/catkin_ws/devel/include/cmvision_3d/Blobs3d.h"
 #include <math.h>
 
 ros::Publisher turtle_vel;
